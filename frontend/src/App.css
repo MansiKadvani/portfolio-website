@@ -1,0 +1,196 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Poppins", sans-serif;
+}
+
+body{
+  background:#071a2f;
+  color:white;
+}
+
+/* Navbar */
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 80px;
+  background:#081f3a;
+  position:sticky;
+  top:0;
+}
+
+.navbar h2{
+  color:#00c3ff;
+}
+
+.navbar ul{
+  display:flex;
+  list-style:none;
+  gap:30px;
+}
+
+.navbar a{
+  text-decoration:none;
+  color:white;
+  font-size:16px;
+  transition:0.3s;
+}
+
+.navbar a:hover{
+  color:#00c3ff;
+}
+
+/* HERO */
+
+#hero{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:100px 80px;
+  min-height:90vh;
+}
+
+#hero h1{
+  font-size:48px;
+  font-weight:600;
+}
+
+#hero h3{
+  color:#00c3ff;
+  margin-top:10px;
+}
+
+#hero p{
+  margin-top:20px;
+  max-width:500px;
+  color:#bfc9d9;
+}
+
+/* Buttons */
+
+.btn{
+  margin-top:30px;
+  padding:12px 30px;
+  border-radius:6px;
+  border:none;
+  cursor:pointer;
+  font-size:16px;
+}
+
+.primary{
+  background:#00c3ff;
+  color:black;
+}
+
+.secondary{
+  border:1px solid #00c3ff;
+  background:transparent;
+  color:#00c3ff;
+  margin-left:15px;
+}
+
+/* Sections */
+
+section{
+  padding:100px 80px;
+}
+
+h2{
+  font-size:32px;
+  margin-bottom:30px;
+  color:#00c3ff;
+}
+
+/* About */
+
+#about p{
+  max-width:700px;
+  margin-bottom:15px;
+  color:#cbd6e4;
+}
+
+/* Skills */
+
+#skills ul{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:20px;
+}
+
+#skills li{
+  background:#0b2747;
+  padding:15px;
+  border-radius:8px;
+  text-align:center;
+  transition:0.3s;
+}
+
+#skills li:hover{
+  background:#00c3ff;
+  color:black;
+}
+
+/* Projects */
+
+.project{
+  background:#0b2747;
+  padding:25px;
+  margin-bottom:20px;
+  border-radius:10px;
+  transition:0.3s;
+}
+
+.project:hover{
+  transform:translateY(-5px);
+}
+
+.project a{
+  display:inline-block;
+  margin-top:10px;
+  color:#00c3ff;
+}
+
+/* Education */
+
+#education p{
+  margin-bottom:8px;
+  color:#cbd6e4;
+}
+
+/* Contact */
+
+form{
+  display:flex;
+  flex-direction:column;
+  max-width:400px;
+}
+
+input,textarea{
+  margin-bottom:15px;
+  padding:12px;
+  border:none;
+  border-radius:6px;
+}
+
+button{
+  padding:12px;
+  background:#00c3ff;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+  text-align:center;
+  padding:30px;
+  background:#081f3a;
+  margin-top:40px;
+}
