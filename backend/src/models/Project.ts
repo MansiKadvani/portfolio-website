@@ -8,4 +8,4 @@ const projectSchema = new mongoose.Schema({
   demo: String
 });
 
-export default mongoose.model("Project", projectSchema);
+export default mongoose.model("project", projectSchema);
